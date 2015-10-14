@@ -1,0 +1,30 @@
+body{ 
+	background:
+		-webkit-linear-gradient(45deg, hsla(2, 99%, 50%, 1) 0%, hsla(2, 99%, 50%, 0) 70%),
+		-webkit-linear-gradient(315deg, hsla(314, 92%, 45%, 1) 10%, hsla(314, 92%, 45%, 0) 80%),
+		-webkit-linear-gradient(225deg, hsla(342, 98%, 46%, 1) 10%, hsla(342, 98%, 46%, 0) 80%),
+		-webkit-linear-gradient(135deg, hsla(4, 98%, 46%, 1) 100%, hsla(4, 98%, 46%, 0) 70%);
+	background:
+		linear-gradient(45deg, hsla(2, 99%, 50%, 1) 0%, hsla(2, 99%, 50%, 0) 70%),
+		linear-gradient(135deg, hsla(314, 92%, 45%, 1) 10%, hsla(314, 92%, 45%, 0) 80%),
+		linear-gradient(225deg, hsla(342, 98%, 46%, 1) 10%, hsla(342, 98%, 46%, 0) 80%),
+		linear-gradient(315deg, hsla(4, 98%, 46%, 1) 100%, hsla(4, 98%, 46%, 0) 70%);
+	}
+div{padding:30px; color:#fff; text-align:center;}
+header{text-align:center; color:#fff;}
+/* ボタンここから*/
+a.btn{text-align:center}
+a.btn{ display: inline-block; width: 120px; margin: 45px 20px 40px; padding: 15px 10px; border: 1px solid #fff; background: transparent; color: #fff; text-align: center; text-decoration: none; line-height: 1; transition: .3s;}
+a.menu { position:relative; z-index:2; overflow:hidden;}
+a.menu::after { display:block; content:""; position:absolute; z-index:-1; top:50%; left:50%; width:130px; height:130px; margin:-65px 0 0 -65px; border:65px double rgba(255,255,255,0); border-radius:50%;}
+a.menu:hover::after { border-width:0; border-color:rgba(255,255,255,1); transition:.5s;}
+/*　ボタンここまで */
+img{max-width:120px; border:5px solid #fff; border-radius: 100%; text-align:center;}
+#speciality{ background-color:#fff; color:#000;margin-bottom:40px;}
+#hobby{ background-color:#fff; color:#000; margin-bottom:40px;}
+#hitokoto{background-color:#fff; color:#000; margin-bottom:40px;}
+#messageboard{ background-color:#fff; color:#000; margin-bottom:40px;}
+#twiclone{ background-color:#fff; color:#000; margin-bottom:40px;}
+#monolist{ background-color:#fff; color:#000; margin-bottom:40px;}
+#original{ background-color:#fff; color:#000; margin-bottom:40px;}
+small{color:#fff;}
