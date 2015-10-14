@@ -5,11 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap 101 Template</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+        <!__ CSSファイルの読み込み -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- BootstrapのCSS読み込み -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <!-- JQuery読み込み -->
+        <script src="//ajax.googleaps.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <!-- BootstrapのJS読み込み -->
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <header>
+          <img src="IMG_1022.jpg">
+          <h2>高橋 眞哉</h2>
+          <span>慶應義塾大学文学部在学中</span><br />
+          <a href="http://github.com/tmash513" class="btn menu">Github</a>
+          <a href="#speciality" class="btn menu">専攻での学び</a>
+          <a href="#hobby" class="btn menu">趣味</a>
+          <a href="#hitokoto" class="btn menu">ひとこと</a>
+          <br />
+          <h2>Applications</h2>
+          <a href="#messageboard" class="btn menu">Message Board</a>
+          <a href="#twiclone" class="btn menu">Twitterクローン</a>
+          <a href="#monolist" class="btn menu">モノリスト</a>
+          <a href="#original" class="btn menu">Originalサービス</a>
+      </header>
+      <div class="container">
+          <div class="row" id="speciality">
+              <h1>専攻での学び</h1><br />
+              <p>私の専攻は図書館情報学と言います。
+              図書館情報学が専攻として設置されているのは
+              私の在学している慶應義塾大学と
+              他には元は図書館情報大学という名称だった筑波大学の２大学のみになります。</p>
+              <p>具体的にどんな専攻かと言うと、以下の主に３つのことを学びます。
+                  <br /><br />
+                  図書館<br />
+                  情報メディア<br />
+                  情報検索<br /><br />
+              
+              ２年生で３つ全ての基礎を学び、
+              ３年生からはそれぞれ自分の学びたい分野を１つに絞って
+              より専門的に学びます。</p>
+          </div>
+          <div class="row" id="hobby">
+              <h1>趣味</h1><br />
+              <h3>アロマテラピー</h3>
+              <p>高校２年生のときにハマってから、今まで続いてる趣味です。高２のうちにアロマテラピー検定１級も取得しています。
+              ブレンド学や医学的観点から見たアロマテラピーなど、ただ香りを楽しむに留まらずに楽しく学んでいます。</p>
+              <!-- 画像差し込み　-->
+              <h3>読書</h3>
+              <p>大学生になってから、ようやく勉強することの大切さや楽しさが分かり、読書をするようになりました。
+              海外の文学作品からビジネス書、新書や専門書など色々な本を読みます。</p>
+          </div>
+          <div class="row" id="messageboard">
+            <h1>Message board</h1>
+            <p>coming soon</p>
+          </div>
+          <div class="row" id="twiclone">
+            <h1>Twitterクローン</h1>
+            <p>coming soon</p>
+          </div>
+          <div class="row" id="monolist">
+            <h1>モノリスト</h1>
+            <p>coming soon</p>
+          </div>
+          <div class="row" id="original">
+            <h1>Originalサービス</h1>
+            <p>coming soon</p>
+          </div>
+          <div class="row" id="hitokoto">
+            <h1>ひとこと</h1><br />
+            <p>彼女ほしいですねぇ！！</p>
+          </div>    
+    
+    </div>
+    <footer>
+        <hr>
+        <small>&copy; 2015 Tmash513</small>
+    </footer>
   </body>
 </html>
