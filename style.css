@@ -1,4 +1,4 @@
-body{background-color: #006400; }
+body{color:#006400;}
 div{padding:30px; color:#fff; text-align:center;}
 header{text-align:center; color:#fff;}
 /* ボタンここから*/
@@ -9,9 +9,9 @@ a.menu::after { display:block; content:""; position:absolute; z-index:-1; top:50
 a.menu:hover::after { border-width:0; border-color:rgba(255,255,255,1); transition:.5s;}
 /*　ボタンここまで */
 img{max-width:120px; border:5px solid #fff; border-radius: 100%; text-align:center; margin-top:30px;}
-#speciality{ background-color:#fff; color:#000;margin-bottom:40px;}
-#hobby{ background-color:#fff; color:#000; margin-bottom:40px;}
-#hitokoto{background-color:#fff; color:#000; margin-bottom:40px;}
+#speciality{ background-color:#fff; color:#000;　margin-bottom:40px; padding: 40px;}
+#hobby{ background-color:#fff; color:#000; margin-bottom:40px; padding: 40px;}
+#hitokoto{background-color:#fff; color:#000; margin-bottom:40px; padding: 40px;}
 #messageboard{ background-color:#fff; color:#000; margin-bottom:40px;}
 #twiclone{ background-color:#fff; color:#000; margin-bottom:40px;}
 #monolist{ background-color:#fff; color:#000; margin-bottom:40px;}
